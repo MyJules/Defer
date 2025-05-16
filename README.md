@@ -1,6 +1,7 @@
 # Defer.hpp
 
 **Defer.hpp** is a lightweight C++ header-only library that brings Go-style `defer` semantics to C++. It enables you to schedule code to run automatically at the end of the current scope, making resource management and cleanup tasks concise and exception-safe.
+To use just copy header to your project.
 
 ## Features
 
