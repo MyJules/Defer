@@ -35,4 +35,4 @@ private:
 
 #define DEFER_VAR_NAME_CONCAT(x,y) x ## y
 #define DEFER_VAR_NAME(x,y) DEFER_VAR_NAME_CONCAT(x,y)
-#define defer(x) const defer_t DEFER_VAR_NAME(_defer,__LINE__)([&]{ x });
+#define defer(x) const defer_t DEFER_VAR_NAME(_defer,__LINE__)([&]{ x })
