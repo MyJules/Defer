@@ -1,0 +1,15 @@
+[
+  {
+    "label": "C++ : Build and Run Release",
+    "command": "cmake -DCMAKE_BUILD_TYPE=Release -S . -B build; cmake --build build; ./build/bin/Defer",
+    "use_new_terminal": false,
+    "reveal": "always"
+  },
+
+  {
+    "label": "C++ : Build and Run Debug",
+    "command": "cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build; cmake --build build; ./build/bin/Defer",
+    "use_new_terminal": false,
+    "reveal": "always"
+  }
+]
